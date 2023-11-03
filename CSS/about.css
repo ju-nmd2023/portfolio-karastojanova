@@ -4,8 +4,6 @@ body {
     margin: 0;
 }
 
-/* HEADER */
-
 header {
     display: flex;
     align-items: center;
@@ -35,35 +33,16 @@ a {
 
 /* MAIN */
 
-.main-image {width: 30%;
-    padding-bottom: 100px;
-    
-}
-
-/* WORK */
-
-.work-picture {
-    width: 40%;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
+main {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 150px;
 }
 
 /* FOOTER */
 
 footer {
-    border-top: 1.3px solid black;
-}
-
-#logodesign {
-    margin-bottom: 100px;
-}
-
-#aboutme {
-    margin-bottom: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
+    border-top: 1px solid black;
+    margin-top: 500px;
 }
