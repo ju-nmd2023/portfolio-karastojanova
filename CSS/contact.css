@@ -26,11 +26,21 @@ ul {
 }
 
 li {
-    margin-left: 5rem;
+    margin-left: 2rem;
 }
 
 a {
     color: black;
+}
+
+@media screen and (max-width: 565px) {
+    header ul {
+        flex-direction: column;
+    }
+
+    li {
+        margin-left: 2rem;
+    }
 }
 
 /* MAIN */
@@ -91,9 +101,44 @@ div {
     margin-top: 50px;
 }
 
+@media screen and (max-width: 500px) {
+    #name {
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    #mail {
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 10px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    #number {
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 10px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    
+    #message {
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 60px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+}
+
 /* FOOTER */
 
 footer {
     border-top: 1px solid black;
-    margin-top: 100px;
+    margin-top: 30px;
     }

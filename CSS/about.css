@@ -24,11 +24,21 @@ ul {
 }
 
 li {
-    margin-left: 5rem;
+    margin-left: 2rem;
 }
 
 a {
     color: black;
+}
+
+@media screen and (max-width: 565px) {
+    header ul {
+        flex-direction: column;
+    }
+
+    li {
+        margin-left: 2rem;
+    }
 }
 
 /* MAIN */
@@ -38,6 +48,14 @@ main {
     padding-left: 200px;
     padding-right: 200px;
     margin-top: 150px;
+}
+
+@media screen and (max-width: 565px) {
+    main {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
 }
 
 /* FOOTER */
