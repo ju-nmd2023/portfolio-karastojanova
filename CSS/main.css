@@ -34,7 +34,7 @@ a {
 }
 
 @media screen and (max-width: 565px) {
-    header ul {
+    header {
         flex-direction: column;
     }
 
@@ -52,6 +52,8 @@ a {
 div {
     margin: 0;
 }
+
+/* The following 9 lines of code were adapted from //www.w3schools.com/howto/howto_css_image_text.asp */
 
 .center {
     position: absolute;

@@ -61,6 +61,8 @@ h1 {
     width: 50%;
 }
 
+/* The following "text-align: center;" was adapted from https://www.javatpoint.com/how-to-center-images-in-css#:~:text=To center an image%2C we,to center in the div */
+
 figure {
     margin: 0;
     text-align: center;
