@@ -34,7 +34,7 @@ a {
 }
 
 @media screen and (max-width: 565px) {
-    header {
+    header ul  {
         flex-direction: column;
     }
 
