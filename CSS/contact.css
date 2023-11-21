@@ -34,12 +34,17 @@ a {
 }
 
 @media screen and (max-width: 565px) {
-    header ul {
+    header  {
         flex-direction: column;
     }
 
     li {
-        margin-left: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #logo {
+        margin-bottom: 0.1rem;
     }
 }
 
@@ -63,8 +68,8 @@ div {
     border: 1px solid black;
     border-radius: 30px;
     padding: 10px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 #mail {

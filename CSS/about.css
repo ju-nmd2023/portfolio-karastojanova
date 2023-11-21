@@ -32,12 +32,17 @@ a {
 }
 
 @media screen and (max-width: 565px) {
-    header ul {
+    header  {
         flex-direction: column;
     }
 
     li {
-        margin-left: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #logo {
+        margin-bottom: 0.1rem;
     }
 }
 
