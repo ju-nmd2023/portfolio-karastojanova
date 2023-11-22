@@ -9,8 +9,11 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: rgba(214, 212, 199, 0.545);
-    padding-left: 15px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: #090b2a;
 }
 
 #logo {
@@ -30,7 +33,8 @@ li {
 }
 
 a {
-    color: black;
+    color: white;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 565px) {
@@ -49,6 +53,10 @@ a {
 }
 
 /* MAIN */
+
+main {
+    color: #090b2a;
+}
 
 h1 {
     margin-left: 70px;
@@ -94,14 +102,13 @@ section {
     .pictures {
         width: 80%;
     }
-
-    section {
-        padding-bottom: 30px;
-    }
 }
 
 /* FOOTER */
 
 footer {
-    border-top: 1.3px solid black;
+    text-align: center;
+    border-top: 1.3px solid #090b2a;
+    margin-top: 30px;
+    color: #090b2a;
 }

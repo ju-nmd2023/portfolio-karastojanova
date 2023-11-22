@@ -7,8 +7,11 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: rgba(214, 212, 199, 0.545);
-    padding-left: 15px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: #090b2a;
 }
 
 #logo {
@@ -28,7 +31,8 @@ li {
 }
 
 a {
-    color: black;
+    color: white;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 565px) {
@@ -52,7 +56,7 @@ main {
     text-align: center;
     padding-left: 200px;
     padding-right: 200px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 565px) {
@@ -66,6 +70,8 @@ main {
 /* FOOTER */
 
 footer {
-    border-top: 1px solid black;
-    margin-top: 500px;
+    text-align: center;
+    border-top: 1.3px solid #090b2a;
+    margin-top: 30px;
+    color: #090b2a;
 }
