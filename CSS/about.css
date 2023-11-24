@@ -59,6 +59,23 @@ main {
     margin-top: 50px;
 }
 
+#popup {
+    margin-top: 30px;
+    background-color: #090b2a;
+    color: white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+}
+
+#button {
+    background-color: #962890;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+}
+
 @media screen and (max-width: 565px) {
     main {
         padding-left: 30px;

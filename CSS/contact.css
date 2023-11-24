@@ -70,35 +70,31 @@ div {
 }
 
 #name {
-    border: 1px solid #090b2a;
+    border: 1.2px solid #090b2a;
     border-radius: 30px;
     padding: 10px;
-    padding-left: 140px;
-    padding-right: 140px;
+    width: 30%;
 }
 
 #mail {
-    border: 1px solid #090b2a;
+    border: 1.2px solid #090b2a;
     border-radius: 30px;
     padding: 10px;
-    padding-left: 160px;
-    padding-right: 160px;
+    width: 30%;
 }
 
 #number {
-    border: 1px solid #090b2a;
+    border: 1.2px solid #090b2a;
     border-radius: 30px;
     padding: 10px;
-    padding-left: 125px;
-    padding-right: 125px;
+    width: 30%;
 }
 
 #message {
-    border: 1px solid black;
+    border: 1.2px solid black;
     border-radius: 30px;
     padding: 60px;
-    padding-left: 150px;
-    padding-right: 150px;
+    width: 30%;
 }
 
 #send {
@@ -112,37 +108,39 @@ div {
     color: white;
 }
 
+input {
+    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
 @media screen and (max-width: 500px) {
     #name {
-        border: 1px solid #090b2a;
+        border: 1.2px solid #090b2a;
         border-radius: 30px;
         padding: 10px;
-        padding-left: 60px;
-        padding-right: 60px;
+        width: 30%;
     }
     
     #mail {
-        border: 1px solid #090b2a;
+        border: 1.2px solid #090b2a;
         border-radius: 30px;
         padding: 10px;
-        padding-left: 80px;
-        padding-right: 80px;
+        width: 30%;
     }
 
     #number {
-        border: 1px solid #090b2a;
+        border: 1.2px solid #090b2a;
         border-radius: 30px;
         padding: 10px;
-        padding-left: 45px;
-        padding-right: 45px;
+        width: 30%;
     }
     
     #message {
-        border: 1px solid #090b2a;
+        border: 1.2px solid #090b2a;
         border-radius: 30px;
         padding: 60px;
-        padding-left: 100px;
-        padding-right: 100px;
+        width: 30%;
     }
 
 }
